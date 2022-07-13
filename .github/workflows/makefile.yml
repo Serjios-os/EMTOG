@@ -1,0 +1,28 @@
+name: CI Qt Application
+
+on:
+  push:
+    branches: [ develop , release , feature/develop-0.2.1 ]
+  pull_request:
+    branches: [ develop , release , feature/develop-0.2.1 ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: environment
+      uses: jurplel/install-qt-action@v3
+
+    - name: download
+      uses: actions/checkout@v3
+
+    - name: configure
+      run: qmake -o Makefile EMTOG.pro -spec linux-g++
+
+    - name: compile
+      run: make
+
+    - name: check
+      run: make check
