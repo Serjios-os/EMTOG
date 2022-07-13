@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+    <Name>EMTOG</Name>
+    <Version>1.0.0</Version>
+    <Title>Electric MTO Generator</Title>
+    <Publisher>Sirajeddine EBN AMOR</Publisher>
+    <!-- Directory name is used in component.xml -->
+    <StartMenuDir>EMTOG</StartMenuDir>
+    <TargetDir>@RootDir@/EMTOG</TargetDir>
+</Installer>
