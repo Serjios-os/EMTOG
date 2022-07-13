@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icon.png</file>
+    </qresource>
+    <qresource prefix="/pdf">
+        <file>NFC-15-105.pdf</file>
+    </qresource>
+</RCC>
