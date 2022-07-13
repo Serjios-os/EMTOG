@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>Electric MTO Generator</DisplayName>
+    <Description>Electric MTO Generator Application.</Description>
+    <Version>1.0.0-1</Version>
+    <ReleaseDate>2022-06-10</ReleaseDate>
+    <Default>true</Default>
+    <Script>installscript.qs</Script>
+</Package>
